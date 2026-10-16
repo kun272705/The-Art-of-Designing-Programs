@@ -185,3 +185,4 @@ compositor.compose();
 Node 實例委托 Visitor 實例：
 
 visitor.visitNode(this);
+
