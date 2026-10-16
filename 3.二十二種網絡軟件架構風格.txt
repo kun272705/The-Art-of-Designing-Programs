@@ -87,3 +87,4 @@
 第二十二種：Representational State Transfer
 
 把系統拆分成 Client、Proxy、Gateway 和 Server，同時對系統進行分層，讓每一層都只為其上一層提供服務，每一層都只使用其下一層提供的服務，使用虛擬機屏蔽執行平臺差異，讓上層向下層請求代碼然後執行，讓上層緩存響應，不讓下層保持 Session State，讓所有層采用統一的接口。
+
